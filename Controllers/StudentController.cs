@@ -8,5 +8,11 @@ namespace GitAssignmentFLR.Controllers
         {
             return View();
         }
+
+        public IActionResult Create()
+        {
+            return View();
+        }
+
     }
 }
