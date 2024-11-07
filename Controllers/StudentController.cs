@@ -9,8 +9,18 @@ namespace GitAssignmentFLR.Controllers
        
         public IActionResult Index()
         {
-            var std=new Student(1,"roo","roo@roo.roo");
+          var std=new Student(1,"roo","roo@roo.roo");
             students.Add(std);
+
+
+            return View();
+        }
+
+        public IActionResult Edit()
+        {
+
+
+          
             return View();
         }
 
